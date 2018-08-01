@@ -1,0 +1,14 @@
+{
+  "Username": "primary@demo-user.org",
+  "FirstName": "Calvin",
+  "LastName": "Hobbs",
+  "Alias": "CHobbs",
+  "Email": "vivek.m.chawla@gmail.com",
+  "TimeZoneSidKey": "America/Denver",
+  "LocaleSidKey": "en_US",
+  "EmailEncodingKey": "UTF-8",
+  "LanguageLocaleKey": "en_US",
+  "profileName": "Standard User",
+  "permsets": ["FSC_DW"],
+  "password": "abc123pass"
+}

@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "isvte_falcon_x__DriveWealth__c",
+        "referenceId":  "ref1"
+      },
+      "isvte_falcon_x__Endpoint__c":      "https://api.drivewealth.io/v1/",
+      "isvte_falcon_x__Password__c":      "passw0rd",
+      "isvte_falcon_x__Referral_Code__c": "NEZBZR",
+      "isvte_falcon_x__User_ID__c":       "22e4eecd-eb62-421c-a33a-9112056d9c8a",
+      "isvte_falcon_x__Username__c":      "Salesforce"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "43.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "appxDemo": {
+        "demoAlias"     : "MyAppxDemo",
+        "demoConfig"    : "demo-config.json",
+        "demoTitle"     : "My AppExchange Demo",
+        "demoType"      : "ADK-SINGLE",
+        "demoVersion"   : "0.0.1",
+        "gitHubUrl"     : "https://github.com/JessieDaniels/adk-project-1",
+        "gitRemoteUri"  : "https://github.com/JessieDaniels/adk-project-1.git",
+        "partnerAlias"  : "AppyInc",
+        "partnerName"   : "Appy Apps Incorporated",
+        "schemaVersion" : "0.0.1"
+      }
+    }			
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "sequenceName":     "Build ADK Demo Org",
+  "description":      "Demo created by somebody very special! We love Falcon!",
+  "sequenceType":     "adk-config",
+  "sequenceVersion":  "1.0.0",
+  "schemaVersion":    "1.0.0",
+  "options":  {
+    "scratchDefJson":       "demo-scratch-def.json",
+    "rebuildValidationOrg": false,
+    "skipActions":          []
+  },
+  "sequenceGroups": [
+    {
+      "groupName":    "Install Packages",
+      "description":  "Installs all the managed and unmanged packages we need",
+      "sequenceSteps": [
+        { 
+          "stepName":     "Install Falxon-X Managed Package",
+          "description":  "Installs version 1.2 (Beta 10) of the Falcon-X package",
+          "action":       "install-package",
+          "options": {
+            "packageName":      "Falcon-X, Version 1.2 (Beta 10)",
+            "packageVersionId": "04t1N000001bW4g"
+          }
+        },
+        {
+          "stepName":     "Install VMC Base Package",
+          "description":  "Installs version 1.37 (Beta 1) of the VMC Base Package",
+          "action":       "install-package",
+          "options": {
+            "packageName":      "VMC Base Package, Version 1.37 (Beta 1)",
+            "packageVersionId": "04t360000011vqy"
+          }
+        }
+      ]
+    }
+  ],
+  "handlers": [
+    {},
+    {}
+  ]
+}
