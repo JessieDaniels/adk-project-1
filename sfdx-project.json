@@ -3,17 +3,19 @@
   "sourceApiVersion": "43.0",
   "plugins": {
     "sfdxFalcon": {
+      "projectAlias"   : "my-appx-demo",
+      "projectName"    : "My AppExchange Demo Project",
+      "projectType"    : "adk-single",
+      "defaultRecipe"  : "demo-config.json",
+      "gitRemoteUri"   : "https://github.com/JessieDaniels/adk-project-1.git",
+      "gitHubUrl"      : "https://github.com/JessieDaniels/adk-project-1",
+      "projectVersion" : "0.0.1",
+      "schemaVersion"  : "0.0.1",
+      "pluginVersion"  : "0.0.1",
       "appxDemo": {
-        "demoAlias"     : "MyAppxDemo",
-        "demoConfig"    : "demo-config.json",
-        "demoTitle"     : "My AppExchange Demo",
-        "demoType"      : "ADK-SINGLE",
-        "demoVersion"   : "0.0.1",
-        "gitHubUrl"     : "https://github.com/JessieDaniels/adk-project-1",
-        "gitRemoteUri"  : "https://github.com/JessieDaniels/adk-project-1.git",
+        "demoRecipes"   : ["alternate-demo-config.json, alternate-demo-config-2.json"],
         "partnerAlias"  : "AppyInc",
-        "partnerName"   : "Appy Apps Incorporated",
-        "schemaVersion" : "0.0.1"
+        "partnerName"   : "Appy Apps Incorporated"
       }
     }			
   }
