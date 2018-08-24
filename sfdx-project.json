@@ -13,7 +13,7 @@
       "schemaVersion"  : "0.0.1",
       "pluginVersion"  : "0.0.1",
       "appxDemo": {
-        "demoRecipes"   : ["alternate-demo-config.json, alternate-demo-config-2.json"],
+        "demoRecipes"   : ["demo-config.json", "alternate-demo-config.json"],
         "partnerAlias"  : "AppyInc",
         "partnerName"   : "Appy Apps Incorporated"
       }
