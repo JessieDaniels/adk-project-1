@@ -1,7 +1,7 @@
 {
   "orgName": "PARTNERNAME Demo Org",
   "country": "US",
-  "edition": "Enterprise",
+  "edition": "Developer",
   "description": "ADK demo org for PARTNERNAME",
   "hasSampleData": false,
   "language": "en_US",
